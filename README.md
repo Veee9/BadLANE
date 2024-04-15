@@ -112,7 +112,7 @@ sh tusimple_metatrain.sh
 
 ### Generate poisoned train dataset
 
-After that, we can choose a poisoning rate and take out a portion from the clean dataset, using the trained meta-generator to construct a poisoned training dataset. Then, modify the poisoned lane line label files according to the specified attack strategy. By replacing this portion of data in the clean dataset, we can obtain the complete poisoned dataset.
+After that, we can choose a **poisoning rate** and take out a portion from the clean dataset, using the trained meta-generator to construct a poisoned training dataset. At the same time, modify the poisoned lane line label files according to the specified **attack strategy**. By replacing this portion of data in the clean dataset, we can obtain the complete poisoned dataset.
 
 ```shell
 cd gen_poisoned_dataset
