@@ -4,6 +4,8 @@
 
 This repository is the official PyTorch implemetation of paper "Towards Robust Physical-world Backdoor Attacks on Lane Detection".
 
+![overview](src/overview.jpg)
+
 ## Install
 
 ### Requirements
