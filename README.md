@@ -10,9 +10,9 @@ This repository is the official PyTorch implemetation of paper "Towards Robust P
 
 ### Requirements
 
-* Python ==3.8.18
+* Python == 3.8.18
 
-* PyTorch ==2.1.2
+* PyTorch == 2.1.2
 
 ```shell
 pip install -r requirements.txt
