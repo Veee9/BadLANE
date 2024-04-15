@@ -1,0 +1,29 @@
+# Training settings
+model:
+  name: PolyRegression
+  parameters:
+    num_outputs: 35 # (5 lanes) * (1 conf + 2 (upper & lower) + 4 poly coeffs)
+    pretrained: true
+    backbone: 'resnet34'
+    pred_category: false
+    curriculum_steps: [0, 0, 0, 0]
+loss_parameters:
+  conf_weight: 1
+  lower_weight: 1
+  upper_weight: 1
+  cls_weight: 0
+  poly_weight: 300
+batch_size: 16
+epochs: 2695
+optimizer:
+  name: Adam
+  parameters:
+    lr: 3.0e-4
+lr_scheduler:
+  name: CosineAnnealingLR
+  parameters:
+    T_max: 385
+
+# Testing settings
+test_parameters:
+  conf_threshold: 0.5

@@ -1,0 +1,13 @@
+torch==2.1.2
+torchvision==0.16.2
+numpy==1.23
+tqdm
+opencv-python
+imgaug
+torch_dct
+pyyaml
+addict
+yapf
+imagecorruptions
+pillow
+scipy
